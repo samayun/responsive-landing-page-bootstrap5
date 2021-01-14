@@ -76,3 +76,60 @@ body{
         background: linear-gradient(#98B133,#89B133);
     }
 }
+.payment {
+	padding: 2em 3em;
+    box-shadow: 1px 1px 10px #afa5a5;
+}
+
+.payment-text {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+    color: var(--default-theme-color,#020511);
+	box-shadow: 0px 4px #c7750d;
+    padding: 10px 0px;
+}
+.payment-card {
+    font-size: 50px;
+    color: red;
+}
+.payment-type {
+    font-size: 100px;
+    margin-right: 5px;
+}
+.payment-type-sm {
+	font-size: 50px;
+	margin: 7px;
+}
+.visa {
+    /* background:linear-gradient(blue,royalblue); */
+    font-size: 100px;
+}
+.credit-card {
+    color:rgb(179, 121, 13);
+}
+.mastercard{
+    color:rgb(247, 70, 57);
+}
+.paypal {
+    color: #3064e0;
+}
+.amex{
+    color: #3064e0;
+    padding: 10px;
+}
+.stripe{
+    font-size: 100px;color:rgb(63, 113, 192);background-color: #fff;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 20%;
+}
+.bottom-to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+    z-index: 1030;
+    text-decoration: none;
+    color: #000;
+}
